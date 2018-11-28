@@ -1,0 +1,161 @@
+<Universe>
+	<World name="world1" type="flat" origin="middle" x="5" y="0" z="10" width="500" height="200" depth="500" texture="$_DIRECTORY_$/testfiles/models/grass.jpg">
+		<Camera active="true" name="camera1" type="fps" x="250.0" y="10.0" z="250.0" >
+
+		</Camera>
+		<Camera active="false" collision="noclip" name="camera2" type="fps" x="0.0" y="0.0" z="400" rotationY="180">
+
+		</Camera>
+		<Camera active="false" name="camera3" type="fps" x="400" y="0" z="0" rotationY="90">
+
+		</Camera>
+		<GameObject name="ball1" collision="noclip" model="$_DIRECTORY_$/testfiles/models/ball/ball.obj" x="250" y="100" z="250" scale="0.2f">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+			</Component>
+			<Component class="$_DIRECTORY_$/testfiles/classes/LightComponent">
+				<Constructor>
+					<Parameter type="int" value="3">
+
+					</Parameter>
+					<Parameter type="boolean" value="true">
+
+					</Parameter>
+					<Parameter type="boolean" value="true">
+
+					</Parameter>
+				</Constructor>
+			</Component>
+		</GameObject>
+		<GameObject name="teapot" collision="noclip" model="$_DIRECTORY_$/testfiles/models/teapot/teapot.obj" x="150" y="100" z="250" scale="0.2f">
+		</GameObject>
+		<GameObject name="house1" collision="dynamic" model="$_DIRECTORY_$/testfiles/models/house/Farmhouse.obj" x="400" y="10" z="300">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Mover">
+				<Constructor>
+					<Parameter type="float" value="-0.5f">
+
+					</Parameter>
+					<Parameter type="float" value="0f">
+
+					</Parameter>
+					<Parameter type="float" value="-0.3f">
+
+					</Parameter>
+				</Constructor>
+
+			</Component>
+			<Component class="$_DIRECTORY_$/testfiles/classes/Rotater">
+				<Constructor>
+					<Parameter type="float" value="0.0f">
+
+					</Parameter>
+					<Parameter type="float" value="0.3f">
+
+					</Parameter>
+					<Parameter type="float" value="0.0f">
+
+					</Parameter>
+				</Constructor>
+			</Component>
+		</GameObject>
+		<GameObject name="house2" collision="dynamic" model="$_DIRECTORY_$/testfiles/models/house/Farmhouse.obj" x="50" y="10" z="50">
+			<Component class="$_DIRECTORY_$/testfiles/classes/LightComponent">
+				<Constructor>
+					<Parameter type="int" value="2">
+
+					</Parameter>
+					<Parameter type="boolean" value="true">
+
+					</Parameter>
+				</Constructor>
+			</Component>
+			<Component class="/home/brent/Documents/Git/Project-OpenGL/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+		<GameObject collision="dynamic" model="$_DIRECTORY_$/testfiles/models/box1/WoodBox.obj" scale="2f" x="100" y="0" z="20">
+			<Component class="$_DIRECTORY_$/testfiles/classes/Selector">
+
+			</Component>
+		</GameObject>
+	</World>
+</Universe>
